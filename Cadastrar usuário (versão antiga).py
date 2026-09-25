@@ -77,19 +77,40 @@ while True:
 
     if opcao == '1':
         print("\n--- Novo Cadastro ---")
-        nome = input("Digite o seu nome: ").strip()
-        email = input("Digite o seu e-mail: ")
-        senha = input("Digite a sua senha: ")
 
-        while True:
+        while True: #nome
+          nome = input("Digite o seu nome: ").strip()
+
+          if nome.isdigit():
+            print("Erro! Digite seu nome corretamente.")
+          else:break
+
+
+        while True: #senha
+          senha = input("Digite a sua senha: ").strip()
+          senha2 = input("Confirme sua senha: ").strip()
+
+          if len(senha) <6:
+            print("Senha muito curta! Digite uma maior(Mínimo 6 digitos)")
+          elif senha!=senha2:
+            print("As senhas não coincidem, digite novamente.")
+          else:break
+
+        while True: #cep
             cep_input = input("Digite o seu CEP: ").strip()
-
             cep_limpo = cep_input.replace("-", "")
 
             if cep_limpo.isdigit() and len(cep_limpo) == 8:
                 cep = f"{cep_limpo[:5]}-{cep_limpo[5:]}"
                 break
             print("CEP inválido! Digite 8 números.")
+
+        while True: #email
+          email = input("Digite o seu e-mail: ").strip()
+
+          if not "@" in email or not "." in email:
+            print("Email incorreto! Digite novemante.")
+          else:break
 
         SalvarUsuario(nome, email, senha, cep)
 
