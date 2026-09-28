@@ -1,19 +1,6 @@
 import sqlite3
 
 conexao = sqlite3.connect('Boca_de_Lobo.db')
-cursor = conexao.cursor()
-
-cursor.execute('''
-    CREATE TABLE IF NOT EXISTS usuarios (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        nome_usuario TEXT NOT NULL,
-        email TEXT NOT NULL UNIQUE,
-        senha TEXT NOT NULL,
-        cep TEXT NOT NULL
-    )
-''')
-conexao.commit()
-
 def SalvarUsuario(nome_usuario, email, senha_pura, cep):
     try:
         cursor.execute('''
