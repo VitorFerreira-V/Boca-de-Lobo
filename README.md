@@ -1,10 +1,10 @@
 # Boca-de-Lobo
 Scrum Master - Luiz Miguel
-\nGit Master - Vitor
-\nP.O - Hadassa
-\nHustler - Aline
-\nHipsters - Nara e Clara
-\nFront-end - Carpeggiani, Igor e Lucas André
-\nBack-end - Gabriel Lins, Lucas Elias e Fernando
-\nQa - Lucas Henrique e Maria Helena
-\nCoringa - Enzo
+Git Master - Vitor
+P.O - Hadassa
+Hustler - Aline
+Hipsters - Nara e Clara
+Front-end - Carpeggiani, Igor e Lucas André
+Back-end - Gabriel Lins, Lucas Elias e Fernando
+Qa - Lucas Henrique e Maria Helena
+Coringa - Enzo
