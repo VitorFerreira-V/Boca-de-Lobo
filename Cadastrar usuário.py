@@ -1,6 +1,7 @@
 import sqlite3
 
 conexao = sqlite3.connect('Boca_de_Lobo.db')
+
 def SalvarUsuario(nome_usuario, email, senha_pura, cep):
     try:
         cursor.execute('''
