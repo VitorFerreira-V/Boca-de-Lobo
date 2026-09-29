@@ -10,5 +10,6 @@ Qa - Lucas Henrique e Maria Helena
 Coringa - Enzo
 
 Boca-de-Lobo
+Cadastro de usuário:
 |----- Banco_de_dados: Boca_de_Lobo.db
 |----- Cadastrar usuário.py
