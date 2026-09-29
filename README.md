@@ -8,3 +8,7 @@ Front-end - Carpeggiani, Igor e Lucas André
 Back-end - Gabriel Lins, Lucas Elias e Fernando
 Qa - Lucas Henrique e Maria Helena
 Coringa - Enzo
+
+Boca-de-Lobo
+|----- Banco_de_dados: Boca_de_Lobo.db
+|----- Cadastrar usuário.py
